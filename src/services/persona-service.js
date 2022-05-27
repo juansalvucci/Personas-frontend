@@ -12,6 +12,7 @@ export async function GetPersons() {
   } catch (err) {
     console.error(err);
   }
+  return [];
 }
 
 export async function CreatePerson() {
